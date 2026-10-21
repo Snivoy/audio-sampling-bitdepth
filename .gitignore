@@ -1,0 +1,23 @@
+# --- Audio data: not redistributed (EARS is CC BY-NC 4.0; the notebook re-downloads everything) ---
+content/audio/
+content/_downloads/
+*.wav
+*.flac
+
+# --- Unpublished manuscript: keep out of a public repo until the paper is published ---
+*.docx
+*.pdf
+~$*
+
+# --- Python / Jupyter clutter ---
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+venv/
+
+# --- OS / editor ---
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/

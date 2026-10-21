@@ -1,0 +1,42 @@
+{
+  "python": "3.14.6",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "pandas": "3.0.6",
+  "soundfile": "0.14.0",
+  "libsndfile": "1.2.2",
+  "matplotlib": "3.11.2",
+  "config": {
+    "AUDIO_DIR": "C:\\Telkom University\\Semester 7\\Sismul\\sinta 4 sismul\\content\\audio",
+    "OUT_DIR": "C:\\Telkom University\\Semester 7\\Sismul\\sinta 4 sismul\\content\\results",
+    "SAMPLING_RATES": [
+      8000,
+      16000,
+      22050,
+      32000,
+      44100,
+      48000
+    ],
+    "BIT_DEPTHS_FILE": [
+      8,
+      16,
+      24
+    ],
+    "BIT_DEPTHS_SWEEP": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      20,
+      24
+    ],
+    "PEAK_TARGET": 0.95,
+    "EDGE_TRIM_S": 0.05,
+    "WELCH_NPERSEG": 4096,
+    "ROLLOFF_FRACTION": 0.95,
+    "SEED": 42
+  }
+}
