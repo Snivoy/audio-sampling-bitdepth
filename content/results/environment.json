@@ -6,9 +6,15 @@
   "soundfile": "0.14.0",
   "libsndfile": "1.2.2",
   "matplotlib": "3.11.2",
+  "visqol_python": "3.8.0",
   "config": {
     "AUDIO_DIR": "C:\\Telkom University\\Semester 7\\Sismul\\sinta 4 sismul\\content\\audio",
     "OUT_DIR": "C:\\Telkom University\\Semester 7\\Sismul\\sinta 4 sismul\\content\\results",
+    "CATEGORIES": [
+      "speech",
+      "classical",
+      "pop"
+    ],
     "SAMPLING_RATES": [
       8000,
       16000,
@@ -37,6 +43,25 @@
     "EDGE_TRIM_S": 0.05,
     "WELCH_NPERSEG": 4096,
     "ROLLOFF_FRACTION": 0.95,
+    "FILTERS": {
+      "default": null,
+      "sharp": {
+        "half_len_mult": 50,
+        "beta": 12.0
+      }
+    },
+    "PRIMARY_FILTER": "sharp",
+    "SNR_THRESHOLDS_DB": [
+      30,
+      40,
+      50,
+      60
+    ],
+    "VISQOL": true,
+    "VISQOL_THRESHOLDS": [
+      4.0,
+      4.5
+    ],
     "SEED": 42
   }
 }

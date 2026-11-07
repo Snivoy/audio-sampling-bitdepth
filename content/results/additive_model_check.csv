@@ -1,0 +1,3 @@
+filter,mean,mean_abs,max_abs,n
+default,0.0172,0.0242,0.2224,408
+sharp,0.0067,0.0149,0.2224,408
